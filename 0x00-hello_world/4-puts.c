@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 /**
-*Primer archivo en C
-*Holberton
+* main - starting point
+*
+* Return: 0 if correct
 */
 int main(void)
 {
