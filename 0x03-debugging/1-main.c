@@ -13,12 +13,12 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10) /*this part is origin infinite llop*/
+	while (i < 10)
 	{
 		putchar(i);
 	}
 
-	printf("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n"); /*This origin infinite loop*/
 
 	return (0);
 }
