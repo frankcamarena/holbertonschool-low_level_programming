@@ -1,8 +1,6 @@
 #include "main.h"
 /**
 * print_numbers - function about ckeck for a digit
-* @c: is a number
-* Return: 10 is correct
 */
 
 void print_numbers(void)
