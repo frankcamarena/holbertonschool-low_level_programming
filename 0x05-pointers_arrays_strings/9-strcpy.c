@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* *_strcpy - function about to print array
+* _strcpy - function about to print array
 * @dest: is pointer variable
 * @src: is pointer  variable
+* Return: char
 */
 
 char *_strcpy(char *dest, char *src)
@@ -14,5 +15,5 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
-	return (char*)dest;
+	return (dest);
 }
