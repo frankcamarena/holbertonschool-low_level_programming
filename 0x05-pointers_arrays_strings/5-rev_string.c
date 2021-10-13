@@ -7,16 +7,20 @@
 void rev_string(char *s)
 
 {
-	int i, z, leng;
+	int i, z, y, leng, temp;
 
 	for (i = 0; (s[i] != '\0'); i++)
 	{
-		_putchar(s[i]);
+
 	}
 	leng = i;
-	for (z = leng - 1; z >= 0; z--)
+	y = leng - 1;
+
+	for (z = 0; z < y; z++)
 	{
-		_putchar(s[z]);
+		temp = s[z];
+		s[z] = s[y];
+		s[y] = temp;
+		y--;
 	}
-	_putchar(10);
 }
