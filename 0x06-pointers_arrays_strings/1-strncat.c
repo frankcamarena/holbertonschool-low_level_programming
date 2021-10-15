@@ -3,6 +3,7 @@
 * *_strncat - function about to print str
 * @dest: is a cadena
 * @src: es a cadena
+* @n: put
 * Return: dest
 */
 
