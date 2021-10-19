@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* *_memset - function about to print str
-* @s: is a pointer
-* @b: is a value
+* *_memcpy - function about to copy
+* @dest: is a pointer
+* @src: is a value
 * @n: times bytes
-* Return: 0 is correct
+* Return: dest is correct
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
