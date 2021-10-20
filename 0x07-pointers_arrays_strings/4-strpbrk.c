@@ -3,6 +3,7 @@
 * *_strpbrk - devuelve la primera aparicion de la cadena s
 * @s: Cadena examinada
 * @accept: Cadena a buscar en s
+* Return: parte de la cadena o null
 */
 
 char *_strpbrk(char *s, char *accept)
